@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        header {
+            text-align: center;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #ccc;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        header p {
+            font-size: 1.2em;
+            color: #777;
+        }
+        section {
+            margin-top: 20px;
+        }
+        section h2 {
+            font-size: 1.5em;
+            border-bottom: 2px solid #ccc;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+        }
+        section p, section ul {
+            margin: 10px 0;
+        }
+        section ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+        section ul li {
+            margin: 5px 0;
+        }
+        .progress-bar {
+            text-align: left;
+            padding-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Aman Jha</h1>
+            <p>Web Developer</p>
+        </header>
+        <section class="contact-info">
+            <h2>Contact Information</h2>
+            <p>Email: ak9102848@gmail.com</p>
+            <p>Phone: 8750725639</p>
+        </section>
+        <section class="skills">
+            <h2>Skills</h2>
+            <div class="mb-3">
+                <label>JavaScript</label>
+                <div class="progress">
+                    <div class="progress-bar bg-success" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
+                </div>
+            </div>
+            <div class="mb-3">
+                <label>HTML & CSS</label>
+                <div class="progress">
+                    <div class="progress-bar bg-info" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
+                </div>
+            </div>
+            <div class="mb-3">
+                <label>Python</label>
+                <div class="progress">
+                    <div class="progress-bar bg-warning" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
+                </div>
+            </div>
+        </section>
+        <section class="projects">
+            <h2>Projects</h2>
+            <div class="card-deck">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Project 1</h5>
+                        <p class="card-text">Description of the project and the technologies used.</p>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#project1Modal">
+                            View Details
+                        </button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Project 2</h5>
+                        <p class="card-text">Description of the project and the technologies used.</p>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#project2Modal">
+                            View Details
+                        </button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Project 3</h5>
+                        <p class="card-text">Description of the project and the technologies used.</p>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#project3Modal">
+                            View Details
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="education">
+            <h2>education</h2>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>CBSE</th>
+                        <th>12th</th>
+                        <th>2023</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Noida Institute of Engineering and Technology</td>
+                        <td>B.Tech in Biotechnology</td>
+                        <td>2023</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </div>
+
+    <!-- Project 1 Modal -->
+    <div class="modal fade" id="project1Modal" tabindex="-1" role="dialog" aria-labelledby="project1ModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="project1ModalLabel">Project 1 Details</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <h2>project title: E-commerce Website for Selling Auto Rickshaws</h2>
+<h1>Description:</h1>
+<p>This project involves creating an e-commerce platform specifically designed to sell various models of auto rickshaws. The website allows users to browse through different products, add them to their cart, and view their cart's total price. The website is designed with a clean and user-friendly interface to enhance the shopping experience.</p>
+
+<h1>Technologies Used:</h1>
+<p>HTML: For the basic structure of the website.
+CSS: For styling the website, including layout, colors, fonts, and responsiveness.
+JavaScript: For adding interactivity to the website, such as managing the shopping cart and updating the total price dynamically.
+Bootstrap: For responsive design and pre-styled components, such as the navigation bar and buttons.
+Images and Assets: Various images for the auto rickshaw products, sourced from the internet.
+Features:
+Responsive Navigation Bar: Includes links to different sections and buttons for sign-in and sign-up.
+Product Listings: Each product is displayed with an image, name, price, and an 'Add to Cart' button.
+Shopping Cart: Users can add products to the cart, view the items in the cart, and see the total price.
+Dynamic Updates: The cart and total price are updated dynamically as users add or remove items.</p>
+<h1>Challenges Faced:</h1>
+<p>Responsive Design: Ensuring the website is fully responsive across different devices and screen sizes was a significant challenge. This involved extensive use of CSS media queries and Bootstrap's grid system.
+Dynamic Cart Management: Implementing a dynamic cart that updates in real-time as users add or remove items required careful management of JavaScript event listeners and DOM manipulation.
+User Experience: Creating a seamless and intuitive user experience was challenging. This involved optimizing the layout, ensuring quick load times, and making the website easy to navigate.</p>
+<h1>Outcomes:</h1>
+<p>Functional E-commerce Platform: Successfully developed a functional e-commerce website that meets the project's requirements. Users can browse products, add them to their cart, and see the total cost.
+Improved Skills: Gained a deeper understanding of HTML, CSS, and JavaScript, especially in the context of building interactive and responsive web applications.
+User Feedback: Received positive feedback on the website's design and functionality, with users appreciating the simplicity and ease of use.
+Performance Optimization: Through iterative testing and optimization, the website performs well across different devices and browsers, providing a smooth user experience.
+Overall, this project was a valuable learning experience in web development, covering both front-end design and client-side scripting. The completed website serves as a solid foundation for further enhancements and additions, such as integrating a backend for user authentication and payment processing.</p>
+
+                    <p>For more details, visit: <a href="https://ak9102848.github.io/-project-.github.io/">Project 1 Website</a></p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Project 2 Modal -->
+<div class="modal fade" id="project2Modal" tabindex="-1" role="dialog" aria-labelledby="project2ModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title" id="project2ModalLabel">Project 2 Details</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+              </button>
+          </div>
+          <div class="modal-body">
+            <h2>Project Title: Combined Blogging Website</h2>
+            
+            <h1>Description:</h1>
+            <p>The Combined Blog project is a dynamic and responsive blogging website designed to host a variety of articles on different topics, including politics, sports, environment, entertainment, and health. The website is intended to provide users with a seamless browsing experience, showcasing articles in a visually appealing and easy-to-navigate format.</p>
+            
+            <h1>Technologies Used:</h1>
+            
+            <p>HTML: Used for structuring the content of the website.
+            CSS: Employed to style the website, making it visually appealing. Techniques such as Flexbox were used to create a responsive layout.
+            JavaScript: Used to add interactivity, such as the "Read More" functionality, which expands articles to show additional content when clicked.
+            GitHub Pages: Utilized for hosting the website, allowing for easy deployment and accessibility.</p>
+            <h1>Features:</h1>
+            
+            <p>Responsive Design: The website layout adjusts seamlessly across different screen sizes, providing an optimal viewing experience on both desktop and mobile devices.
+            Dynamic Content Loading: Articles are loaded dynamically, allowing for easy updates and additions without major changes to the website structure.
+            Interactivity: The "Read More" feature uses JavaScript to expand articles, enhancing user engagement by allowing them to reveal additional content without navigating away from the page.
+            Visual Appeal: The use of images, clean typography, and consistent styling creates a professional and attractive appearance.</p>
+            <h1>Challenges Faced:</h1>
+            
+            <p>Responsive Layouts: Ensuring that the website maintained its layout and functionality across various devices and screen sizes required careful planning and testing.
+            Cross-browser Compatibility: Making sure that the website looked and performed well across different web browsers involved extensive testing and debugging.
+            User Experience: Balancing aesthetics with functionality to provide a smooth user experience was a key focus, particularly in implementing interactive elements like the "Read More" buttons.</p>
+            <h1>Outcomes:</h1>
+            
+            <p>Successful Deployment: The website was successfully deployed using GitHub Pages, making it accessible to users with a simple URL.
+            Positive User Feedback: Users have appreciated the clean design and ease of navigation, along with the variety of content available.
+            Scalability: The project is designed to be easily expandable, allowing for the addition of new articles and categories without major rework.
+            Conclusion:
+            The Combined Blogging Website project showcases a comprehensive approach to web development, integrating front-end technologies to create a user-friendly platform for diverse content. The successful deployment and positive reception highlight the project's effectiveness in delivering a high-quality, interactive online experience.</p>
+            
+              <p>For more details, visit: <a href="https://ak9102848.github.io/-blog-.github.io/">Project 2 Website</a></p>
+          </div>
+          <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+    <!-- Project 3 Modal -->
+<div class="modal fade" id="project3Modal" tabindex="-1" role="dialog" aria-labelledby="project3ModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title" id="project3ModalLabel">Project 3 Details</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+              </button>
+          </div>
+          <div class="modal-body">
+            <h2>Project Title: Personal Resume Website</h2>
+            
+            
+            <h1>Description:</h1>
+            <p>The Personal Resume Website project is a professional and interactive web-based resume designed to showcase your skills, projects, education, and contact information. The website serves as a digital portfolio, providing a comprehensive overview of your professional background in a visually appealing and accessible format.</p>
+            
+            <h1>Technology Used:</h1>
+            
+            <p>HTML: Used to structure the content of the resume, ensuring a clear and organized layout.
+            CSS: Employed for styling the website, enhancing its visual appeal through the use of colors, fonts, and layout techniques. Bootstrap was also utilized for responsive design and pre-styled components.
+            Bootstrap: Used to facilitate a responsive design, ensuring that the website looks good on various devices and screen sizes. Bootstrap's grid system and components, such as modals and progress bars, were extensively used.
+            JavaScript: Used to add interactivity to the website, such as opening modal dialogs for detailed project descriptions.
+            GitHub Pages: Utilized for hosting the website, providing an easy and reliable way to make the resume accessible online.</p>
+            <h1>Features:</h1>
+            
+            <p>Responsive Design: The website adjusts seamlessly to different screen sizes, providing an optimal viewing experience on desktops, tablets, and smartphones.
+            Interactive Modals: Each project description can be expanded in a modal dialog, providing additional details without navigating away from the main page.
+            Progress Bars: Skill levels are visually represented using progress bars, giving a quick overview of your proficiency in various technologies.
+            Contact Information: Clearly displayed contact details make it easy for potential employers or collaborators to reach out to you.</p>
+            <h1>Challenges Faced:</h1>
+            
+            <p>Responsive Layouts: Ensuring that the website maintained its layout and functionality across various devices and screen sizes required extensive use of Bootstrap's grid system and CSS media queries.
+            Cross-browser Compatibility: Making sure that the website looked and performed well across different web browsers involved thorough testing and debugging.
+            User Experience: Balancing aesthetics with functionality to provide a smooth user experience was a key focus. This included optimizing the layout, ensuring quick load times, and making the website easy to navigate.</p>
+            <h1>Outcomes:</h1>
+            
+            <p>Professional Online Presence: Successfully developed a professional and interactive resume website that effectively showcases your skills and projects.
+            Enhanced Visibility: The online resume provides a convenient way for potential employers or collaborators to learn about your professional background, increasing your visibility in the job market.
+            Positive Feedback: Users have appreciated the clean design and interactive elements, noting the ease of accessing detailed project information through modals.
+            Improved Skills: The project provided valuable experience in web development, particularly in using HTML, CSS, Bootstrap, and JavaScript to create a responsive and interactive web application.</p>
+            <h1>Conclusion:</h1>
+            <p>The Personal Resume Website project demonstrates a comprehensive approach to creating a professional digital portfolio. The use of modern web technologies and a focus on responsive design and interactivity resulted in a high-quality, user-friendly online resume. The successful deployment and positive reception highlight the project's effectiveness in delivering a compelling and accessible showcase of your professional qualifications.</p>
+                        
+              <p>For more details, visit: <a href="https://ak9102848.github.io/Resume.github.io/">Project 3 Website</a></p>
+          </div>
+          <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
